@@ -1,12 +1,22 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1200px;
+
 }
 
 header {
     background-color: #2471A3;
     height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main {
+    margin-top: 100px;
 }
 
 #logo {
@@ -16,10 +26,9 @@ header {
 }
 
 #language {
-    float:right;
+    float: right;
     margin-top: 15px;
     margin-right: 10px;
-
 }
 
 footer {
@@ -35,7 +44,8 @@ footer {
 .breadcrumbs {
     margin-left: 50px;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li a,
@@ -68,9 +78,8 @@ li {
     height: 100px;
 }
 
-.logout
-{
-    background-color: red;
+.logout {
+    background-color: #C10000;
 }
 
 li:hover {
@@ -89,7 +98,7 @@ iconify-icon {
 
 .smallertext {
     font-size: 24px;
-   }
+}
 
 .smallesttext {
     font-size: 24px;
@@ -100,7 +109,7 @@ iconify-icon {
 
 .logout:hover {
     background-color: black;
-    color: red;
+    color: #C10000;
 }
 
 #logout {
