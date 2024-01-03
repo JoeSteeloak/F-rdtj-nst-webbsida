@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2471A3;
+}
+
+footer {
+    background-color: #2471A3;
+}
+
+ul li a,
+ul li a:visited {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    border: 2px black solid;
+    width: 360px;
+    height: 100px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
+li:hover {
+    background-color: #2471A3;
+    color: white;
+}
+
+ul li a:hover {
+    color: inherit;
+}
+
+iconify-icon {
+    vertical-align: middle;
+    padding: 0 20px 0 0;
+}
+
+.smallertext {
+    font-size: 24px;
+   }
+
+.smallesttext {
+    font-size: 24px;
+    word-wrap: break-word;
+}
