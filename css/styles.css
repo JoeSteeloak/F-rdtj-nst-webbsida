@@ -24,14 +24,14 @@ main {
     float: left;
     margin-top: 15px;
     margin-left: 10px;
-    width: 60 vw;
-    max-width: 291px;
+    max-width: 60vw;
 }
 
 #language {
     float: right;
     margin-top: 15px;
     margin-right: 10px;
+    max-width: 35vw;
 }
 
 footer {
