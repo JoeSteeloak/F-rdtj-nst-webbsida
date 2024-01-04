@@ -195,7 +195,8 @@ h2 {
     display: block;
     margin: 10% auto;
     height: 150px;
-    max-width: 500px;
+    width: 500px;
+    max-width: 90vw;
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
