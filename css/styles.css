@@ -117,3 +117,90 @@ iconify-icon {
 footer a {
     color: white;
 }
+
+/* Boka resa-sidan*/
+
+h1 {
+    padding-left: 25px;
+}
+
+.thickline {
+    border: 3px solid #2471A3;
+    margin: 0 10%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.thinline {
+    margin: 0 10%;
+}
+
+h2 {
+    color: #636262;
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+.choice {
+    color: black;
+    float: right;
+    margin-right: 10%;
+}
+
+#accept {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #8EEE7E;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px black;
+    width: 160px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    margin: 15px;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+#abort {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #C10000;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    width: 160px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    margin: 15px;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+/* Time input styling */
+
+#time-input {
+    display: block;
+    margin: 10% auto;
+    height: 150px;
+    width: 330px;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#returnTripLabel {
+    display: inline-block;
+    width: 700 px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+
+
