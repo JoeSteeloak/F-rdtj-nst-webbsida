@@ -156,15 +156,16 @@ h2 {
     background-color: #8EEE7E;
     border-radius: 25px;
     box-shadow: 1px 1px 1px black;
-    width: 160px;
+    width: 40vw;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
     height: 45px;
     line-height: 45px;
-    margin: 15px;
-    margin-left: 15%;
+    margin: auto;
+    margin-left: 5%;
     margin-top: 50px;
+    
 }
 
 #abort {
@@ -174,13 +175,14 @@ h2 {
     border-radius: 25px;
     color: white;
     box-shadow: 1px 1px 1px black;
-    width: 160px;
+    width: 40vw;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
     height: 45px;
     line-height: 45px;
-    margin: 15px;
+    margin: auto;
+    margin-right: 5%;
 }
 
 .form a {
@@ -193,7 +195,7 @@ h2 {
     display: block;
     margin: 10% auto;
     height: 150px;
-    width: 330px;
+    max-width: 500px;
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
