@@ -72,7 +72,7 @@ li {
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: 1px 1px 1px black;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: black;
     text-align: center;
@@ -95,7 +95,7 @@ ul li a:hover {
 
 iconify-icon {
     vertical-align: middle;
-    padding: 0 20px 0 0;
+    padding: 0 2% 0 0;
 }
 
 .smallertext {
