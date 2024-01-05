@@ -210,4 +210,42 @@ h2 {
     padding-left: 20px;
 }
 
+/*bokade resor och gamla resor */
+
+.booking {
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 340px;
+    width: 90vw;
+    margin: 5% auto;
+}
+
+.booking p {
+    padding: 0 5%;
+}
+
+.booking h3 {
+    background-color: #D9D9D9;
+    margin: 2%;
+    margin-left: 3%;
+    width: 95%;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.ended {
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 25px;
+    font-weight: 700;
+    background-color: #D9D9D9;
+}
+
+.booked {
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 25px;
+    font-weight: 700;
+    background-color: #8EEE7E;
+}
 
