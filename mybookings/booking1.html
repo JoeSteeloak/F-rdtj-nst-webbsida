@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boka resa</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <!-- Importera iconify -->
     <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js" defer></script>
 
@@ -14,21 +14,19 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="logo" id="logo"></a>
-        <a href="language.html"><img src="images/languageswe.png"
+        <a href="../index.html"><img src="../images/logo.png" alt="logo" id="logo"></a>
+        <a href="../language.html"><img src="../images/languageswe.png"
                 alt="current language is Swedish. Click for language select." id="language"></a>
     </header>
     <main>
 
-        <div class="breadcrumbs">
-            <a href="index.html">Hem</a> <span> / </span><span>Boka resa</span>
-        </div>
+        <div class="breadcrumbs"><a href="../index.html">Hem</a> <span> / </span><a href="../mybookings.html">Mina
+                resor</a><span> / </span><a href="../mybookings/booked.html"><span>Bokade resor</span></a><span> /
+            </span><span>Resa</span></div>
         <div class="form">
-            <h1>Boka resa</h1>
+            <h1>torsdag, 14 december</h1>
             <hr class="thickline">
-            <a href="/book/traveltype.html">
-                <h2>Restyp <span class="choice">Färdtjänsttaxi</span></h2>
-            </a>
+            <h2>Restyp <span class="choice">Färdtjänsttaxi</span></h2>
             <hr class="thinline">
             <h2>Från <iconify-icon icon="material-symbols:line-start" height="35"></iconify-icon><span
                     class="choice">Sveavägen 4</span> </h2>
@@ -36,22 +34,17 @@
             <h2>Till <iconify-icon icon="mdi:ray-end" height="35"></iconify-icon><span class="choice">Malmö
                     C</span></h2>
             <hr class="thinline">
-            <a href="/book/time.html">
-                <h2>Tid <iconify-icon icon="mingcute:time-line" height="35"></iconify-icon><span
-                        class="choice">12:05</span>
-                </h2>
-            </a>
+            <h2>Tid <iconify-icon icon="mingcute:time-line" height="35"></iconify-icon><span class="choice">12:05</span>
+            </h2>
             <hr class="thinline">
             <h2>Passagerare <iconify-icon icon="pepicons-pencil:people" height="35"></iconify-icon><span
                     class="choice">2</span></h2>
             <hr class="thinline">
-            <h2>Övrigt</h2>
+            <h2>Övrigt<span class="choice">Rullstol</span></h2>
             <hr class="thinline">
-            <div id="accept"><iconify-icon icon="mingcute:check-fill" height="25"></iconify-icon><span>BOKA</span>
+            <div id="change"><iconify-icon icon="tdesign:edit" height="25"></iconify-icon><span>ÄNDRA</span>
             </div>
-            <a href="./index.html">
-                <div id="abort"><iconify-icon icon="maki:cross" height="25"></iconify-icon><span>AVBRYT</span></div>
-            </a>
+            <div id="abort"><iconify-icon icon="maki:cross" height="25"></iconify-icon><span>AVBOKA</span></div>
         </div>
     </main>
 
