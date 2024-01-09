@@ -299,3 +299,7 @@ h2 {
     margin: 5% auto;
     width: 90%;
 }
+
+footer p {
+    color: white;
+}
