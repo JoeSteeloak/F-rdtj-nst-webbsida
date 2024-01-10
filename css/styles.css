@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     max-width: 1200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 200px;
+   
 }
 
 header {
@@ -36,12 +36,13 @@ main {
 
 footer {
     background-color: #2471A3;
-    height: 100px;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    top: 20vh;
     text-align: center;
+   margin: 0;
+   max-width: 100%;
+   width: 100%;
+   margin-bottom: 0;
 }
 
 .breadcrumbs {
