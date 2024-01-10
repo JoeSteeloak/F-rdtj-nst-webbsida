@@ -90,6 +90,11 @@ li:hover {
     color: white;
 }
 
+li:focus, ul li a:focus {
+    background-color: #2471A3;
+    color: white;
+}
+
 ul li a:hover {
     color: inherit;
 }
