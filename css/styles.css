@@ -310,3 +310,11 @@ h2 {
 footer p {
     color: white;
 }
+
+.textExpand {
+    display: none;
+}
+
+.expanderBtn:hover {
+    cursor: pointer;
+}
