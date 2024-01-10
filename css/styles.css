@@ -17,6 +17,7 @@ header {
 
 main {
     margin-top: 100px;
+    background-color: white;
 }
 
 #logo {
@@ -38,10 +39,10 @@ footer {
     position: absolute;
     bottom: 0;
     text-align: center;
-    margin: 0;
     max-width: 100%;
     width: 100vw;
     height: 100px;
+    z-index: -1;
 }
 
 .breadcrumbs {
