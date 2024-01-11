@@ -317,3 +317,11 @@ footer p {
     }
 
 }
+
+.textExpand {
+    display: none;
+}
+
+.expanderBtn:hover {
+    cursor: pointer;
+}
