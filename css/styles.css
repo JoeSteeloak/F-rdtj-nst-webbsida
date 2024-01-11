@@ -313,6 +313,7 @@ footer p {
     ul li a:focus {
         background-color: #2471A3;
         color: white;
+        border-radius: 25px;
     }
 
 }
