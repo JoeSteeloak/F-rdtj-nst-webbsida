@@ -2,9 +2,10 @@ body {
     margin: auto;
     padding: 0;
     box-sizing: border-box;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -16,9 +17,7 @@ header {
     left: 0;
 }
 
-main {
-    margin-top: 100px;
-}
+
 
 #logo {
     float: left;
@@ -37,12 +36,13 @@ main {
 footer {
     background-color: #2471A3;
     position: relative;
-    top: 20vh;
+    bottom: 0vh;
     text-align: center;
     margin: 0;
     max-width: 100vw;
     width: 100vw;
-    margin-bottom: 0;
+    margin-top: auto;
+    padding-bottom: 25px;
 }
 
 .breadcrumbs {
@@ -130,6 +130,7 @@ footer a {
 
 h1 {
     padding-left: 25px;
+    text-align: center;
 }
 
 .thickline {
@@ -305,6 +306,10 @@ h2 {
 
 footer p {
     color: white;
+}
+
+footer a {
+    line-height: 25px;
 }
 
 @media screen and (min-width: 800px) {
